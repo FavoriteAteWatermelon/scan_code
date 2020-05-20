@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                System.out.println(223232);
+                System.out.println(223232);
                 startActivity(new Intent(MainActivity.this, TestScanActivity.class));
             }
         });
